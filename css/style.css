@@ -16,9 +16,21 @@ body {
 }
 .nav-li {
 	display: inline-block;
+	font-family: 'Myriad Pro';
+	color: white;
+	font-size: 48px;
+	text-transform: uppercase;
 }
 .logo {
 	float: right;
+	margin: 49px 56px 0 0;
+}
+ul {
+	margin-top: 120px;
+}
+.white {
+	color: white;
+	margin-left: 20px;
 }
 nav {
 	float: right;
@@ -33,21 +45,30 @@ header:after {
 	max-width: 1160px;
 	width: 100%;
 	margin: 0 auto;
-	background-color: aqua;
 }
 .box1 {
+	margin-top: 63.5px;
 	width: 617px ;
-	height: 300px;
-	overflow: auto;
-	background-color: yellow;
+	height: 356px;
+	background-color: #23206A;
 	float: left;
+	overflow: hidden;
 }
 .box2{
-	width: 520px;
-	background-color: yellow;
-	height: 300px;
+	margin-top: 63.5px;
+	width: 479px;
+	background-color: #23206A;
+	height: 356px;
 	float:right;
 	overflow: hidden;
+}
+.margin {
+	margin: 22px 29px 18px 26px;
+}
+p {
+	font-family: 'Segoe UI';
+	color: white;
+	font-size: 14px;
 }
 .clear {
 	clear: both
@@ -59,21 +80,3 @@ header:after {
 	float :left;
 }
 
-.child-box {
-	display: inline-block;
-	width: 150px;
-	height: 150px;
-	background-color: red;
-	margin-right: 20px;
-}
-/*.child-box:last-child {
-	background-color: green
-}
-.child-box:first-child {
-	background-color: pink
-}*/
-.child-box:nth-child(3n){
-	width: 200px;
-	background-color: black;
-	margin-right: 0
-}
